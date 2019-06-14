@@ -13,6 +13,8 @@ import java.lang.ref.ReferenceQueue;
  *
  * 虚引用中有一个构造函数，可以看出，其必须和一个引用队列一起存在。
  * get()方法永远返回null，因为虚引用永远不可达。
+ *
+ * 起到哨兵作用
  */
 public class PhantomRef {
     public static void main(String[] args) {
