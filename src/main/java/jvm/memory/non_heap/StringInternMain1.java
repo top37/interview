@@ -23,7 +23,7 @@ public class StringInternMain1 {
         String str2 = new String("str")+new String("01");
         String str1 = "str01";
 //        str2.intern();
-        System.out.println(str2.intern()==str2);//true 中间两行互换，则为false；
+        System.out.println(str1==str2.intern());//true 中间两行互换，则为false；
     }
 
 }
