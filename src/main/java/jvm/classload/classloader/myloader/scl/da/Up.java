@@ -16,7 +16,7 @@ public class Up {
         try {
 //            ClassLoader.getSystemClassLoader().loadClass()
 //            soutCaller();
-            Class<?> c = Class.forName("jvm.classload.classloader.myloader.scl.da.Down",true,ClassLoader.getSystemClassLoader());
+//            Class<?> c = Class.forName("jvm.classload.classloader.myloader.scl.da.Down",true,ClassLoader.getSystemClassLoader());
 
             //判断Down.class是否会放入app cls loader的缓存中
             // 结论：不会 ClassNotFoundException；并且很可能永远也不会被加到高层cls loader的缓存中，

@@ -16,7 +16,7 @@ import jvm.classload.classloader.myloader.scl.da.Down;
  * 2.将MySysClassLoader 的classpath属性赋值为 C:\Users\top37\Desktop\
  * *注意：将MySysClassLoader需要有一个只含ClassLoader参数的构造方法：public MySysClassLoader(ClassLoader parent)
  * 3.复制target/classes/jvm(jvm包)到桌面
- * 4.删除classpath路径下的MainSys.class字节码文件
+ * 4.删除相应classpath路径下 MainDelegateWeakPoint.class、Down.class字节码文件
  *
  * console：
  * ---> I am loading : jvm.classload.classloader.myloader.scl.MainSys
