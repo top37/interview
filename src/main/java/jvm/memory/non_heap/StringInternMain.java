@@ -16,8 +16,9 @@ public class StringInternMain {
 
         while(true){
             //通过intern方法向常量池中手动添加常量
-            list.add(String.valueOf(i++).intern());
-            System.out.println("count: "+i);
+            String s = String.valueOf(i++).intern();
+//            list.add(String.valueOf(i++).intern());
+            System.out.println("count: "+s);
         }
     }
 }
