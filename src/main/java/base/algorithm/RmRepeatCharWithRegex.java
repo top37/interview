@@ -1,7 +1,5 @@
 package base.algorithm;
 
-import java.util.LinkedHashSet;
-
 public class RmRepeatCharWithRegex {
     static String str = "aabbaaccbdd";
 
@@ -10,9 +8,11 @@ public class RmRepeatCharWithRegex {
     }
 
     public String removeRepeat(String str) {
+        //炫技 start 无卵用
         StringBuffer sb = new StringBuffer(str);
         String rs = sb.reverse().toString().replaceAll("(.)(?=.*\\1)", "");
-//        StringBuffer out = new StringBuffer(rs);
+        StringBuffer out = new StringBuffer(rs);
+        //炫技 end 无卵用
         return str.replaceAll("(.)(?=.*\\1)", "");
     }
 
