@@ -1,5 +1,7 @@
 package base.staticnestedclass.builder;
 
+import base.enums.menu.Food;
+
 /**
  * @author 单强 2019年7月16日14:41:15
  *         Java Builder模式
